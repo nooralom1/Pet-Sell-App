@@ -9,11 +9,12 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColor.bgColor,
       appBar: AppBar(
+        
         leading: CircleAvatar(
           backgroundColor: Colors.white,
           child: Center(
             child: Icon(Icons.search),
-            
+
           ),
         ),
       ),
