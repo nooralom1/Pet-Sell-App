@@ -13,6 +13,7 @@ class HomeScreen extends StatelessWidget {
           backgroundColor: Colors.white,
           child: Center(
             child: Icon(Icons.search),
+            
           ),
         ),
       ),
